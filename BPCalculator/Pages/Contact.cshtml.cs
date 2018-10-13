@@ -12,7 +12,7 @@ namespace BPCalculator.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Your contact page. tester test";
         }
     }
 }
