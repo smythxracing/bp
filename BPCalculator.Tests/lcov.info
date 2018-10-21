@@ -1,56 +1,58 @@
 SF:C:\git\bp\BPCalculator\BloodPressure.cs
 FN:22,System.Int32 BPCalculator.BloodPressure::get_Systolic()
-FNDA:29,System.Int32 BPCalculator.BloodPressure::get_Systolic()
-DA:23,29
+FNDA:39,System.Int32 BPCalculator.BloodPressure::get_Systolic()
+DA:23,39
 FN:25,System.Int32 BPCalculator.BloodPressure::get_Diastolic()
-FNDA:24,System.Int32 BPCalculator.BloodPressure::get_Diastolic()
-DA:26,24
+FNDA:32,System.Int32 BPCalculator.BloodPressure::get_Diastolic()
+DA:26,32
 FN:31,BPCalculator.BPCategory BPCalculator.BloodPressure::get_Category()
-FNDA:7,BPCalculator.BPCategory BPCalculator.BloodPressure::get_Category()
-DA:32,7
-DA:34,7
+FNDA:9,BPCalculator.BPCategory BPCalculator.BloodPressure::get_Category()
+DA:32,9
+DA:34,9
 DA:35,2
 DA:36,2
-DA:38,5
-DA:39,2
-DA:40,2
-DA:42,3
-DA:43,1
-DA:44,1
+DA:38,7
+DA:39,3
+DA:40,3
+DA:42,4
+DA:43,2
+DA:44,2
 DA:46,2
 DA:47,2
 DA:48,2
 DA:51,0
 DA:52,0
-DA:54,7
-BRDA:34,9,0,6
+DA:54,9
+BRDA:34,9,0,8
 BRDA:34,9,1,1
 BRDA:34,26,0,2
-BRDA:34,26,1,5
-BRDA:38,47,0,4
-BRDA:38,47,1,1
-BRDA:38,64,0,2
-BRDA:38,64,1,3
-BRDA:42,82,0,3
-BRDA:42,92,0,2
-BRDA:42,102,0,2
-BRDA:42,102,1,0
-BRDA:42,82,1,1
-BRDA:42,92,1,1
-BRDA:42,125,0,1
-BRDA:42,125,1,2
-BRDA:46,140,0,1
-BRDA:46,140,1,1
+BRDA:34,26,1,7
+BRDA:38,47,0,2
+BRDA:38,47,1,6
+BRDA:38,60,0,6
+BRDA:38,60,1,1
+BRDA:38,77,0,3
+BRDA:38,77,1,4
+BRDA:42,95,0,4
+BRDA:42,105,0,3
+BRDA:42,115,0,3
+BRDA:42,115,1,0
+BRDA:42,95,1,1
+BRDA:42,105,1,1
+BRDA:42,138,0,2
+BRDA:42,138,1,2
 BRDA:46,153,0,1
-BRDA:46,163,0,1
-BRDA:46,163,1,0
 BRDA:46,153,1,1
-BRDA:46,188,0,2
-BRDA:46,188,1,0
+BRDA:46,166,0,1
+BRDA:46,176,0,1
+BRDA:46,176,1,0
+BRDA:46,166,1,1
+BRDA:46,201,0,2
+BRDA:46,201,1,0
 LF:18
 LH:16
-BRF:24
-BRH:21
+BRF:26
+BRH:23
 FNF:3
 FNH:3
 end_of_record
@@ -263,8 +265,8 @@ FN:140,System.String NUnit.VisualStudio.TestAdapter.AdapterSettings::get_Private
 FNDA:2,System.String NUnit.VisualStudio.TestAdapter.AdapterSettings::get_PrivateBinPath()
 DA:141,2
 FN:142,System.Nullable`1<System.Int32> NUnit.VisualStudio.TestAdapter.AdapterSettings::get_RandomSeed()
-FNDA:5,System.Nullable`1<System.Int32> NUnit.VisualStudio.TestAdapter.AdapterSettings::get_RandomSeed()
-DA:143,5
+FNDA:6,System.Nullable`1<System.Int32> NUnit.VisualStudio.TestAdapter.AdapterSettings::get_RandomSeed()
+DA:143,6
 FN:143,System.Boolean NUnit.VisualStudio.TestAdapter.AdapterSettings::get_RandomSeedSpecified()
 FNDA:3,System.Boolean NUnit.VisualStudio.TestAdapter.AdapterSettings::get_RandomSeedSpecified()
 DA:144,3
@@ -381,16 +383,16 @@ FN:282,System.Void NUnit.VisualStudio.TestAdapter.AdapterSettings::RestoreRandom
 FNDA:1,System.Void NUnit.VisualStudio.TestAdapter.AdapterSettings::RestoreRandomSeed(System.String)
 DA:283,1
 DA:284,1
-DA:285,1
-DA:288,0
-DA:289,0
-DA:290,0
+DA:285,0
+DA:288,1
+DA:289,1
+DA:290,1
 DA:291,0
 DA:293,0
 DA:294,0
-DA:295,0
-BRDA:284,18,0,1
-BRDA:284,18,1,0
+DA:295,1
+BRDA:284,18,0,0
+BRDA:284,18,1,1
 FN:303,System.Void NUnit.VisualStudio.TestAdapter.AdapterSettings::UpdateNumberOfTestWorkers()
 FNDA:1,System.Void NUnit.VisualStudio.TestAdapter.AdapterSettings::UpdateNumberOfTestWorkers()
 DA:304,1
@@ -489,7 +491,7 @@ DA:76,1
 DA:78,1
 DA:79,1
 LF:145
-LH:106
+LH:109
 BRF:60
 BRH:34
 FNF:39
@@ -497,71 +499,71 @@ FNH:38
 end_of_record
 SF:D:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\CategoryList.cs
 FN:33,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::AddRange(System.Collections.Generic.IEnumerable`1<System.String>)
-FNDA:18,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::AddRange(System.Collections.Generic.IEnumerable`1<System.String>)
-DA:34,18
-DA:35,18
+FNDA:24,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::AddRange(System.Collections.Generic.IEnumerable`1<System.String>)
+DA:34,24
+DA:35,24
 FN:36,System.Int32 NUnit.VisualStudio.TestAdapter.CategoryList::get_LastNodeListCount()
-FNDA:27,System.Int32 NUnit.VisualStudio.TestAdapter.CategoryList::get_LastNodeListCount()
-DA:37,27
+FNDA:33,System.Int32 NUnit.VisualStudio.TestAdapter.CategoryList::get_LastNodeListCount()
+DA:37,33
 FN:39,System.Collections.Generic.IEnumerable`1<System.String> NUnit.VisualStudio.TestAdapter.CategoryList::ProcessTestCaseProperties(System.Xml.XmlNode,System.Boolean,System.String,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>)
-FNDA:17,System.Collections.Generic.IEnumerable`1<System.String> NUnit.VisualStudio.TestAdapter.CategoryList::ProcessTestCaseProperties(System.Xml.XmlNode,System.Boolean,System.String,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>)
-DA:40,17
-DA:41,17
-DA:42,62
-DA:44,14
-DA:45,14
-DA:46,14
-DA:47,14
-DA:48,14
+FNDA:21,System.Collections.Generic.IEnumerable`1<System.String> NUnit.VisualStudio.TestAdapter.CategoryList::ProcessTestCaseProperties(System.Xml.XmlNode,System.Boolean,System.String,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>)
+DA:40,21
+DA:41,21
+DA:42,78
+DA:44,18
+DA:45,18
+DA:46,18
+DA:47,18
+DA:48,18
 DA:50,0
 DA:51,0
 DA:54,0
-DA:59,17
+DA:59,21
 DA:62,0
 DA:63,0
 DA:66,0
 DA:68,0
 DA:71,0
 DA:74,0
-DA:78,17
-BRDA:42,145,1,14
-BRDA:46,68,0,14
-BRDA:46,68,1,14
+DA:78,21
+BRDA:42,145,1,18
+BRDA:46,68,0,18
+BRDA:46,68,1,18
 BRDA:48,87,0,0
 BRDA:50,100,0,0
 BRDA:50,100,1,0
-BRDA:48,87,1,31
-BRDA:42,145,0,17
+BRDA:48,87,1,39
+BRDA:42,145,0,21
 BRDA:59,176,0,0
-BRDA:59,176,1,17
+BRDA:59,176,1,21
 BRDA:59,193,0,1
-BRDA:59,193,1,16
+BRDA:59,193,1,20
 BRDA:59,214,0,0
 BRDA:62,236,0,0
 BRDA:62,236,1,0
 BRDA:62,266,0,0
 BRDA:62,266,1,0
 BRDA:68,317,0,0
-BRDA:59,214,1,17
-BRDA:68,317,1,17
+BRDA:59,214,1,21
+BRDA:68,317,1,21
 FN:82,System.Boolean NUnit.VisualStudio.TestAdapter.CategoryList::IsInternalProperty(System.String,System.String)
-FNDA:28,System.Boolean NUnit.VisualStudio.TestAdapter.CategoryList::IsInternalProperty(System.String,System.String)
-DA:83,28
+FNDA:36,System.Boolean NUnit.VisualStudio.TestAdapter.CategoryList::IsInternalProperty(System.String,System.String)
+DA:83,36
 DA:87,0
-DA:91,28
+DA:91,36
 BRDA:83,11,0,0
-BRDA:83,11,1,28
-BRDA:91,21,0,28
+BRDA:83,11,1,36
+BRDA:91,21,0,36
 BRDA:91,32,0,0
-BRDA:91,21,1,28
-BRDA:91,32,1,28
+BRDA:91,21,1,36
+BRDA:91,32,1,36
 FN:95,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::AddTraitsToCache(System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,System.String,System.String,System.String)
-FNDA:28,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::AddTraitsToCache(System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,System.String,System.String,System.String)
-DA:96,28
+FNDA:36,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::AddTraitsToCache(System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,System.String,System.String,System.String)
+DA:96,36
 DA:98,0
 DA:99,0
 DA:100,0
-BRDA:96,7,0,14
+BRDA:96,7,0,18
 BRDA:96,7,1,0
 FN:103,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo NUnit.VisualStudio.TestAdapter.CategoryList::GetCachedInfo(System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,System.String)
 FNDA:0,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo NUnit.VisualStudio.TestAdapter.CategoryList::GetCachedInfo(System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,System.String)
@@ -571,18 +573,18 @@ DA:106,0
 BRDA:104,9,0,0
 BRDA:104,9,1,0
 FN:110,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::UpdateCategoriesToVs()
-FNDA:7,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::UpdateCategoriesToVs()
-DA:111,7
+FNDA:9,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::UpdateCategoriesToVs()
+DA:111,9
 DA:113,0
-DA:115,7
+DA:115,9
 BRDA:111,11,0,0
-BRDA:111,11,1,7
+BRDA:111,11,1,9
 FN:23,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::.ctor(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase)
-FNDA:7,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::.ctor(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase)
-DA:24,7
-DA:27,7
-DA:29,7
-DA:30,7
+FNDA:9,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::.ctor(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase)
+DA:24,9
+DA:27,9
+DA:29,9
+DA:30,9
 FN:13,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::.cctor()
 FNDA:1,System.Void NUnit.VisualStudio.TestAdapter.CategoryList::.cctor()
 DA:14,1
@@ -942,8 +944,8 @@ DA:236,1
 DA:238,1
 DA:240,1
 DA:242,1
-DA:247,16
-DA:248,7
+DA:247,20
+DA:248,9
 DA:251,1
 DA:254,1
 DA:257,0
@@ -997,7 +999,7 @@ BRDA:219,111,1,1
 BRDA:233,168,0,1
 BRDA:233,168,1,1
 BRDA:236,198,0,1
-BRDA:247,296,1,7
+BRDA:247,296,1,9
 BRDA:247,296,0,1
 BRDA:254,372,0,1
 BRDA:254,385,0,0
@@ -1026,30 +1028,30 @@ FNH:6
 end_of_record
 SF:D:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\NUnitEventListener.cs
 FN:73,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::OnTestEvent(System.String)
-FNDA:22,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::OnTestEvent(System.String)
-DA:74,22
-DA:80,22
-DA:83,7
-DA:84,7
-DA:87,7
-DA:88,7
+FNDA:26,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::OnTestEvent(System.String)
+DA:74,26
+DA:80,26
+DA:83,9
+DA:84,9
+DA:87,9
+DA:88,9
 DA:91,3
 DA:92,3
 DA:95,0
-DA:98,22
+DA:98,26
 DA:99,0
 DA:101,0
 DA:102,0
 DA:103,0
-DA:104,22
-BRDA:80,25,0,15
+DA:104,26
+BRDA:80,25,0,17
 BRDA:80,38,0,8
 BRDA:80,51,0,5
-BRDA:80,25,1,7
-BRDA:80,38,1,7
+BRDA:80,25,1,9
+BRDA:80,38,1,9
 BRDA:80,51,1,3
 BRDA:80,64,1,0
-BRDA:80,64,0,22
+BRDA:80,64,0,26
 FN:112,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::Dispose()
 FNDA:1,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::Dispose()
 DA:113,1
@@ -1068,22 +1070,22 @@ FNDA:0,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::Finalize()
 DA:133,0
 DA:134,0
 FN:138,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::TestStarted(System.Xml.XmlNode)
-FNDA:7,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::TestStarted(System.Xml.XmlNode)
-DA:139,7
-DA:142,7
-DA:143,7
-DA:144,7
-BRDA:142,24,0,7
-BRDA:142,24,1,7
+FNDA:9,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::TestStarted(System.Xml.XmlNode)
+DA:139,9
+DA:142,9
+DA:143,9
+DA:144,9
+BRDA:142,24,0,9
+BRDA:142,24,1,9
 FN:147,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::TestFinished(System.Xml.XmlNode)
-FNDA:7,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::TestFinished(System.Xml.XmlNode)
-DA:148,7
-DA:149,7
-DA:150,28
-DA:152,7
-DA:154,7
-BRDA:150,88,1,7
-BRDA:150,88,0,7
+FNDA:9,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::TestFinished(System.Xml.XmlNode)
+DA:148,9
+DA:149,9
+DA:150,36
+DA:152,9
+DA:154,9
+BRDA:150,88,1,9
+BRDA:150,88,0,9
 FN:157,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::SuiteFinished(System.Xml.XmlNode)
 FNDA:3,System.Void NUnit.VisualStudio.TestAdapter.NUnitEventListener::SuiteFinished(System.Xml.XmlNode)
 DA:158,3
@@ -1390,173 +1392,173 @@ DA:60,0
 BRDA:59,7,0,1
 BRDA:59,7,1,0
 FN:61,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo> NUnit.VisualStudio.TestAdapter.TestConverter::get_TraitsCache()
-FNDA:7,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo> NUnit.VisualStudio.TestAdapter.TestConverter::get_TraitsCache()
-DA:62,7
+FNDA:9,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo> NUnit.VisualStudio.TestAdapter.TestConverter::get_TraitsCache()
+DA:62,9
 FN:71,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::ConvertTestCase(System.Xml.XmlNode)
-FNDA:7,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::ConvertTestCase(System.Xml.XmlNode)
-DA:72,7
+FNDA:9,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::ConvertTestCase(System.Xml.XmlNode)
+DA:72,9
 DA:73,0
-DA:76,7
-DA:77,7
+DA:76,9
+DA:77,9
 DA:78,0
-DA:81,7
-DA:82,7
-DA:83,7
-BRDA:72,1,0,7
+DA:81,9
+DA:82,9
+DA:83,9
+BRDA:72,1,0,9
 BRDA:72,1,1,0
 BRDA:72,19,0,0
-BRDA:72,19,1,7
+BRDA:72,19,1,9
 BRDA:77,61,0,0
-BRDA:77,61,1,7
+BRDA:77,61,1,9
 FN:87,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::GetCachedTestCase(System.String)
-FNDA:21,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::GetCachedTestCase(System.String)
-DA:88,21
-DA:89,21
+FNDA:27,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::GetCachedTestCase(System.String)
+DA:88,27
+DA:89,27
 DA:91,0
 DA:92,0
-BRDA:88,12,0,21
+BRDA:88,12,0,27
 BRDA:88,12,1,0
 FN:98,NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet NUnit.VisualStudio.TestAdapter.TestConverter::GetVSTestResults(System.Xml.XmlNode)
-FNDA:7,NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet NUnit.VisualStudio.TestAdapter.TestConverter::GetVSTestResults(System.Xml.XmlNode)
-DA:99,7
-DA:100,7
-DA:101,7
-DA:102,14
+FNDA:9,NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet NUnit.VisualStudio.TestAdapter.TestConverter::GetVSTestResults(System.Xml.XmlNode)
+DA:99,9
+DA:100,9
+DA:101,9
+DA:102,18
 DA:104,0
 DA:105,0
 DA:107,0
 DA:108,0
 DA:109,0
 DA:110,0
-DA:114,7
+DA:114,9
 DA:115,0
-DA:117,7
-DA:119,7
-DA:120,7
-DA:121,7
-DA:124,7
+DA:117,9
+DA:119,9
+DA:120,9
+DA:121,9
+DA:124,9
 BRDA:102,146,1,0
 BRDA:105,56,0,0
 BRDA:108,86,0,0
 BRDA:108,86,1,0
 BRDA:109,116,0,0
 BRDA:109,116,1,0
-BRDA:105,56,1,7
-BRDA:102,146,0,7
-BRDA:114,171,0,7
+BRDA:105,56,1,9
+BRDA:102,146,0,9
+BRDA:114,171,0,9
 BRDA:114,180,0,0
 BRDA:114,188,0,0
 BRDA:114,197,0,0
 BRDA:114,197,1,0
 BRDA:114,227,0,0
-BRDA:114,171,1,7
-BRDA:114,180,1,7
-BRDA:114,188,1,7
-BRDA:114,227,1,7
-BRDA:117,247,0,7
-BRDA:120,260,0,7
-BRDA:117,247,1,7
-BRDA:120,260,1,7
+BRDA:114,171,1,9
+BRDA:114,180,1,9
+BRDA:114,188,1,9
+BRDA:114,227,1,9
+BRDA:117,247,0,9
+BRDA:120,260,0,9
+BRDA:117,247,1,9
+BRDA:120,260,1,9
 FN:141,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::MakeTestCaseFromXmlNode(System.Xml.XmlNode)
-FNDA:7,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::MakeTestCaseFromXmlNode(System.Xml.XmlNode)
-DA:142,7
-DA:143,7
-DA:144,7
-DA:145,7
-DA:146,7
-DA:147,7
-DA:148,7
-DA:149,7
-DA:150,7
-DA:152,7
+FNDA:9,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase NUnit.VisualStudio.TestAdapter.TestConverter::MakeTestCaseFromXmlNode(System.Xml.XmlNode)
+DA:142,9
+DA:143,9
+DA:144,9
+DA:145,9
+DA:146,9
+DA:147,9
+DA:148,9
+DA:149,9
+DA:150,9
+DA:152,9
 DA:154,0
 DA:155,0
 DA:156,0
 DA:157,0
 DA:159,0
 DA:160,0
-DA:164,7
-DA:166,7
+DA:164,9
+DA:166,9
 BRDA:152,70,0,0
 BRDA:152,78,0,0
 BRDA:157,124,0,0
-BRDA:152,70,1,7
-BRDA:152,78,1,7
-BRDA:157,124,1,7
+BRDA:152,70,1,9
+BRDA:152,78,1,9
+BRDA:157,124,1,9
 FN:170,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter::MakeTestResultFromLegacyXmlNode(System.Xml.XmlNode)
-FNDA:7,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter::MakeTestResultFromLegacyXmlNode(System.Xml.XmlNode)
-DA:171,7
-DA:172,7
-DA:174,7
-DA:176,7
-DA:179,7
+FNDA:9,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter::MakeTestResultFromLegacyXmlNode(System.Xml.XmlNode)
+DA:171,9
+DA:172,9
+DA:174,9
+DA:176,9
+DA:179,9
 DA:181,0
 DA:182,0
-DA:185,7
-DA:186,7
-DA:189,7
-BRDA:172,9,0,7
-BRDA:174,26,0,7
-BRDA:174,26,1,7
-BRDA:176,42,0,7
+DA:185,9
+DA:186,9
+DA:189,9
+BRDA:172,9,0,9
+BRDA:174,26,0,9
+BRDA:174,26,1,9
+BRDA:176,42,0,9
 BRDA:176,42,1,0
 BRDA:176,59,0,0
 BRDA:176,59,1,0
 BRDA:179,77,0,0
 BRDA:179,84,0,0
-BRDA:179,77,1,7
-BRDA:179,84,1,7
-BRDA:186,130,0,7
+BRDA:179,77,1,9
+BRDA:179,84,1,9
+BRDA:186,130,0,9
 BRDA:186,130,1,0
 BRDA:186,147,0,0
 BRDA:186,147,1,0
-BRDA:172,9,1,7
+BRDA:172,9,1,9
 FN:193,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter::GetBasicResult(System.Xml.XmlNode)
-FNDA:14,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter::GetBasicResult(System.Xml.XmlNode)
-DA:194,14
-DA:195,14
-DA:197,14
-DA:198,14
-DA:199,14
-DA:200,14
-DA:201,14
-DA:202,14
-DA:204,14
-DA:205,14
-DA:206,14
-DA:208,14
-DA:209,14
-DA:210,14
-DA:213,14
-DA:214,12
-DA:216,14
-DA:218,14
-DA:219,14
+FNDA:18,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter::GetBasicResult(System.Xml.XmlNode)
+DA:194,18
+DA:195,18
+DA:197,18
+DA:198,18
+DA:199,18
+DA:200,18
+DA:201,18
+DA:202,18
+DA:204,18
+DA:205,18
+DA:206,18
+DA:208,18
+DA:209,18
+DA:210,18
+DA:213,18
+DA:214,16
+DA:216,18
+DA:218,18
+DA:219,18
 DA:220,0
-DA:222,14
-DA:223,14
+DA:222,18
+DA:223,18
 DA:224,0
-DA:226,14
+DA:226,18
 BRDA:195,19,0,0
-BRDA:195,19,1,14
-BRDA:205,98,0,14
-BRDA:205,98,1,14
-BRDA:209,130,0,14
-BRDA:209,130,1,14
-BRDA:213,165,0,12
+BRDA:195,19,1,18
+BRDA:205,98,0,18
+BRDA:205,98,1,18
+BRDA:209,130,0,18
+BRDA:209,130,1,18
+BRDA:213,165,0,16
 BRDA:213,174,0,0
-BRDA:213,174,1,12
-BRDA:213,183,0,12
-BRDA:213,165,1,14
-BRDA:213,183,1,14
+BRDA:213,174,1,16
+BRDA:213,183,0,16
+BRDA:213,165,1,18
+BRDA:213,183,1,18
 BRDA:219,224,0,0
-BRDA:219,224,1,14
+BRDA:219,224,1,18
 BRDA:223,276,0,0
-BRDA:223,276,1,14
+BRDA:223,276,1,18
 FN:236,Microsoft.VisualStudio.TestPlatform.ObjectModel.AttachmentSet NUnit.VisualStudio.TestAdapter.TestConverter::ParseAttachments(System.Xml.XmlNode)
-FNDA:14,Microsoft.VisualStudio.TestPlatform.ObjectModel.AttachmentSet NUnit.VisualStudio.TestAdapter.TestConverter::ParseAttachments(System.Xml.XmlNode)
-DA:237,14
-DA:239,28
+FNDA:18,Microsoft.VisualStudio.TestPlatform.ObjectModel.AttachmentSet NUnit.VisualStudio.TestAdapter.TestConverter::ParseAttachments(System.Xml.XmlNode)
+DA:237,18
+DA:239,36
 DA:241,0
 DA:242,0
 DA:248,0
@@ -1568,7 +1570,7 @@ DA:254,0
 DA:255,0
 DA:257,0
 DA:258,0
-DA:261,14
+DA:261,18
 BRDA:239,212,1,0
 BRDA:241,66,0,0
 BRDA:241,66,1,0
@@ -1576,11 +1578,11 @@ BRDA:241,78,0,0
 BRDA:241,78,1,0
 BRDA:242,98,0,0
 BRDA:242,98,1,0
-BRDA:239,212,0,14
+BRDA:239,212,0,18
 FN:266,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome NUnit.VisualStudio.TestAdapter.TestConverter::GetTestOutcome(System.Xml.XmlNode)
-FNDA:14,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome NUnit.VisualStudio.TestAdapter.TestConverter::GetTestOutcome(System.Xml.XmlNode)
-DA:267,14
-DA:270,14
+FNDA:18,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestOutcome NUnit.VisualStudio.TestAdapter.TestConverter::GetTestOutcome(System.Xml.XmlNode)
+DA:267,18
+DA:270,18
 DA:272,0
 DA:274,0
 DA:275,0
@@ -1590,7 +1592,7 @@ DA:280,0
 BRDA:267,23,0,0
 BRDA:267,36,0,0
 BRDA:267,49,0,0
-BRDA:267,23,1,14
+BRDA:267,23,1,18
 BRDA:267,36,1,0
 BRDA:267,49,1,0
 BRDA:274,91,0,0
@@ -1631,11 +1633,11 @@ FN:94,System.Void NUnit.VisualStudio.TestAdapter.TestConverter::.cctor()
 FNDA:0,System.Void NUnit.VisualStudio.TestAdapter.TestConverter::.cctor()
 DA:95,0
 FN:128,System.Collections.Generic.IList`1<Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult> NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet::get_TestResults()
-FNDA:14,System.Collections.Generic.IList`1<Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult> NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet::get_TestResults()
-DA:129,14
+FNDA:18,System.Collections.Generic.IList`1<Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult> NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet::get_TestResults()
+DA:129,18
 FN:129,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet::get_TestCaseResult()
-FNDA:21,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet::get_TestCaseResult()
-DA:130,21
+FNDA:27,Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult NUnit.VisualStudio.TestAdapter.TestConverter/TestResultSet::get_TestCaseResult()
+DA:130,27
 LF:123
 LH:77
 BRF:100
@@ -1858,57 +1860,57 @@ DA:36,0
 BRDA:35,1,0,0
 BRDA:35,1,1,0
 FN:64,System.Void NUnit.VisualStudio.TestAdapter.TraitsFeature::AddTraitsFromTestNode(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase,System.Xml.XmlNode,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,NUnit.VisualStudio.TestAdapter.ITestLogger)
-FNDA:7,System.Void NUnit.VisualStudio.TestAdapter.TraitsFeature::AddTraitsFromTestNode(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase,System.Xml.XmlNode,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,NUnit.VisualStudio.TestAdapter.ITestLogger)
-DA:65,7
-DA:66,7
-DA:67,7
-DA:69,35
-DA:71,28
-DA:73,18
-DA:75,18
+FNDA:9,System.Void NUnit.VisualStudio.TestAdapter.TraitsFeature::AddTraitsFromTestNode(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase,System.Xml.XmlNode,System.Collections.Generic.IDictionary`2<System.String,NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo>,NUnit.VisualStudio.TestAdapter.ITestLogger)
+DA:65,9
+DA:66,9
+DA:67,9
+DA:69,45
+DA:71,36
+DA:73,24
+DA:75,24
 DA:76,0
-DA:78,18
-DA:79,18
+DA:78,24
+DA:79,24
 DA:80,0
 DA:81,0
-DA:84,10
-DA:86,10
+DA:84,12
+DA:86,12
 DA:88,3
-DA:91,28
-DA:92,28
-DA:96,7
-DA:97,7
-DA:98,7
+DA:91,36
+DA:92,36
+DA:96,9
+DA:97,9
+DA:98,9
 BRDA:66,14,0,0
-BRDA:66,14,1,7
+BRDA:66,14,1,9
 BRDA:66,31,0,0
-BRDA:66,31,1,7
-BRDA:69,358,1,28
-BRDA:71,62,0,18
+BRDA:66,31,1,9
+BRDA:69,358,1,36
+BRDA:71,62,0,24
 BRDA:73,86,0,1
-BRDA:73,86,1,18
+BRDA:73,86,1,24
 BRDA:73,122,0,1
-BRDA:73,122,1,18
+BRDA:73,122,1,24
 BRDA:75,174,0,0
-BRDA:75,174,1,18
+BRDA:75,174,1,24
 BRDA:78,206,0,1
-BRDA:78,206,1,18
+BRDA:78,206,1,24
 BRDA:79,249,0,0
-BRDA:71,62,1,10
+BRDA:71,62,1,12
 BRDA:86,282,0,3
 BRDA:86,291,0,3
-BRDA:79,249,1,28
-BRDA:86,282,1,28
-BRDA:86,291,1,28
+BRDA:79,249,1,36
+BRDA:86,282,1,36
+BRDA:86,291,1,36
 BRDA:92,313,0,0
-BRDA:92,313,1,28
-BRDA:92,325,0,7
-BRDA:92,325,1,21
+BRDA:92,313,1,36
+BRDA:92,325,0,9
+BRDA:92,325,1,27
 BRDA:92,342,0,0
-BRDA:92,342,1,21
-BRDA:69,355,0,35
-BRDA:69,355,1,7
-BRDA:69,358,0,7
+BRDA:92,342,1,27
+BRDA:69,355,0,45
+BRDA:69,355,1,9
+BRDA:69,358,0,9
 FN:102,System.Collections.Generic.IEnumerable`1<NUnit.VisualStudio.TestAdapter.NTrait> NUnit.VisualStudio.TestAdapter.TraitsFeature::GetTraits(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase)
 FNDA:0,System.Collections.Generic.IEnumerable`1<NUnit.VisualStudio.TestAdapter.NTrait> NUnit.VisualStudio.TestAdapter.TraitsFeature::GetTraits(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestCase)
 DA:103,0
@@ -1930,11 +1932,11 @@ FNDA:0,System.Collections.Generic.IEnumerable`1<System.String> NUnit.VisualStudi
 DA:114,0
 DA:115,0
 FN:50,System.Collections.Generic.List`1<Microsoft.VisualStudio.TestPlatform.ObjectModel.Trait> NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo::get_Traits()
-FNDA:39,System.Collections.Generic.List`1<Microsoft.VisualStudio.TestPlatform.ObjectModel.Trait> NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo::get_Traits()
-DA:51,39
+FNDA:51,System.Collections.Generic.List`1<Microsoft.VisualStudio.TestPlatform.ObjectModel.Trait> NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo::get_Traits()
+DA:51,51
 FN:55,System.Boolean NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo::get_Explicit()
-FNDA:18,System.Boolean NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo::get_Explicit()
-DA:56,18
+FNDA:24,System.Boolean NUnit.VisualStudio.TestAdapter.TraitsFeature/CachedTestCaseInfo::get_Explicit()
+DA:56,24
 FN:120,System.String NUnit.VisualStudio.TestAdapter.NTrait::get_Name()
 FNDA:2,System.String NUnit.VisualStudio.TestAdapter.NTrait::get_Name()
 DA:121,2
@@ -1961,10 +1963,10 @@ DA:43,0
 DA:44,0
 DA:45,0
 FN:49,System.Xml.XmlNode NUnit.VisualStudio.TestAdapter.XmlHelper::CreateXmlNode(System.String)
-FNDA:22,System.Xml.XmlNode NUnit.VisualStudio.TestAdapter.XmlHelper::CreateXmlNode(System.String)
-DA:50,22
-DA:51,22
-DA:52,22
+FNDA:26,System.Xml.XmlNode NUnit.VisualStudio.TestAdapter.XmlHelper::CreateXmlNode(System.String)
+DA:50,26
+DA:51,26
+DA:52,26
 FN:56,System.Xml.XmlNode NUnit.VisualStudio.TestAdapter.XmlHelper::ToXml(System.String)
 FNDA:0,System.Xml.XmlNode NUnit.VisualStudio.TestAdapter.XmlHelper::ToXml(System.String)
 DA:57,0
@@ -1989,10 +1991,10 @@ DA:100,0
 DA:101,0
 DA:102,0
 FN:114,System.String NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String)
-FNDA:122,System.String NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String)
-DA:115,122
-DA:117,122
-BRDA:117,14,0,116
+FNDA:154,System.String NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String)
+DA:115,154
+DA:117,154
+BRDA:117,14,0,148
 BRDA:117,14,1,6
 FN:128,System.Int32 NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.Int32)
 FNDA:0,System.Int32 NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.Int32)
@@ -2003,12 +2005,12 @@ DA:133,0
 BRDA:131,14,0,0
 BRDA:131,14,1,0
 FN:144,System.Double NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.Double)
-FNDA:14,System.Double NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.Double)
-DA:145,14
-DA:147,14
-DA:148,14
-DA:149,14
-BRDA:147,14,0,14
+FNDA:18,System.Double NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.Double)
+DA:145,18
+DA:147,18
+DA:148,18
+DA:149,18
+BRDA:147,14,0,18
 BRDA:147,14,1,0
 FN:160,System.DateTime NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.DateTime)
 FNDA:0,System.DateTime NUnit.VisualStudio.TestAdapter.XmlHelper::GetAttribute(System.Xml.XmlNode,System.String,System.DateTime)
