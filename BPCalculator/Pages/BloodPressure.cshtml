@@ -24,9 +24,25 @@
             </div>
             @if (ViewData.ModelState.IsValid)
             {
-                <div class="form-group">
-                    @Html.DisplayFor(model => model.BP.Category, new { htmlAttributes = new { @class = "form-control" } })
+                <div class="panel panel-default">
+                <div class="panel-heading"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Your BP Category:</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        @Html.DisplayFor(model => model.BP.Category, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
                 </div>
+                </div>
+
+                <div class="panel panel-default">
+                <div class="panel-heading"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Your suggest treatment:</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        @Html.DisplayFor(model => model.BP.SuggestedTreatment, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                </div>
+                
+
             }
         </form>
     </div>
