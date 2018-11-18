@@ -12,12 +12,22 @@ namespace BPCalculator
         [Display(Name = "High Blood Pressure")] High
     };
 
+    public enum BPSuggestedTreatment
+    {
+        [Display(Name = "Eat More Salt")] Low,
+        [Display(Name = "Keep up the healthy lifestyle")] Normal,
+        [Display(Name = "Time to ease back on the booze and cigarettes")] PreHigh,
+        [Display(Name = "Time to visit the GP for a checkup")] High
+    };
+
     public class BloodPressure
     {
         public const int SystolicMin = 70;
         public const int SystolicMax = 190;
         public const int DiastolicMin = 40;
         public const int DiastolicMax = 100;
+
+        public String CurrentBP;
 
         [Range(SystolicMin, SystolicMax, ErrorMessage = "Invalid Systolic Value")]
         public int Systolic { get; set; }                       // mmHG
@@ -53,5 +63,26 @@ namespace BPCalculator
                 }
             }
         }
+
+        public BPSuggestedTreatment SuggestedTreatment
+        {
+            get
+            {
+                switch (Category)
+                {
+                    case BPCategory.Low:
+                        return BPSuggestedTreatment.Low;
+                    case BPCategory.High:
+                        return BPSuggestedTreatment.High;
+                    case BPCategory.Normal:
+                        return BPSuggestedTreatment.Normal;
+                    case BPCategory.PreHigh:
+                        return BPSuggestedTreatment.PreHigh;
+                    default:
+                        throw new Exception("Out of BP Category range");
+                }
+            }
+        }
+
     }
 }
