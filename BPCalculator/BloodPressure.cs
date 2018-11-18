@@ -68,28 +68,21 @@ namespace BPCalculator
         {
             get
             {
-                // implement as part of project
-                if (Systolic < 90 || Diastolic < 60)
+                switch (Category)
                 {
-                    return BPSuggestedTreatment.Low;
-                }
-                else if ((Systolic > 140 && Systolic <= 190) || Diastolic > 90)
-                {
-                    return BPSuggestedTreatment.High;
-                }
-                else if ((Systolic >= 90 && Systolic <= 120) && (Diastolic >= 60 && Diastolic <= 80))
-                {
-                    return BPSuggestedTreatment.Normal;
-                }
-                else if ((Systolic > 120 && Systolic <= 140) || (Diastolic > 80 && Diastolic <= 90))
-                {
-                    return BPSuggestedTreatment.PreHigh;
-                }
-                else
-                {
-                    throw new Exception("Out of BP Category range");
+                    case BPCategory.Low:
+                        return BPSuggestedTreatment.Low;
+                    case BPCategory.High:
+                        return BPSuggestedTreatment.High;
+                    case BPCategory.Normal:
+                        return BPSuggestedTreatment.Normal;
+                    case BPCategory.PreHigh:
+                        return BPSuggestedTreatment.PreHigh;
+                    default:
+                        throw new Exception("Out of BP Category range");
                 }
             }
         }
+
     }
 }
